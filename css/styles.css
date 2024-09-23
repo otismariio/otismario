@@ -1,0 +1,77 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Profile Picture Styling - Oval Shape */
+  .profile-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    position: absolute;
+    top: 20px; /* Adjust this value for more spacing from the top */
+    width: 50%;
+    text-align: center;
+    border-radius: 60%;
+  }
+  
+   
+  /* Rest of your styles */
+  h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #e0e0e0;
+  }
+  
+  .intro {
+    margin-top: 150px; /* Adjust this to position the content after the image */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .auto-text {
+    font-size: 2rem;
+    color: #61dafb;
+  }
+  
+  .section {
+    margin: 40px 0;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .gallery {
+    text-align: center;
+  }
+  
+  .gallery-images {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .gallery-images img {
+    margin: 10px;
+    width: 150px;
+    height: auto;
+    border: 2px solid #fff;
+    border-radius: 10px;
+  }
+  
